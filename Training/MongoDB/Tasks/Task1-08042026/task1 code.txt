@@ -1,0 +1,68 @@
+- Basic :
+
+
+db.students.insertOne({
+  name: "Arpitha",
+  age: 20,
+  course: "CSE"
+})
+
+db.students.insertOne({
+  name: "Nisha",
+  age: 21,
+  course: "ISE"
+})
+
+
+- INTERMEDIATE 
+
+- employees
+
+[
+  { "name": "Manoj", "age": 30, "role": "Manager" },
+  { "name": "Deepa", "age": 25, "role": "Developer" },
+  { "name": "Rakesh", "age": 28, "role": "Tester" },
+  { "name": "Anu", "age": 26, "role": "Designer", "email": "anu@gmail.com", "phone": "9876543210" }
+]
+
+
+- departments
+
+[
+  { "deptName": "HR", "floor": 1 },
+  { "deptName": "IT", "floor": 2 },
+  { "deptName": "Finance", "floor": 3 }
+]
+
+
+
+- products
+
+[
+  { "name": "Laptop", "price": 55000, "category": "Electronics", "stock": 10 },
+  { "name": "Mobile", "price": 20000, "category": "Electronics", "stock": 25 },
+  { "name": "Notebook", "price": 100, "category": "Stationery", "stock": 100 }
+]
+
+
+  - ADVANCED 
+
+
+[
+  { "name": "Kavya", "age": 22 },
+  { "name": "Sanjay", "domain": "Web Development" },
+  { "name": "Meena", "age": 23, "domain": "AI" },
+  { "name": "Arun", "stipend": 5000 },
+  { "name": "Divya", "age": 21, "stipend": 6000 },
+  {
+    "name": "Kiran",
+    "age": 24,
+    "address": {
+      "city": "Mysuru",
+      "state": "Karnataka"
+    }
+  },
+  { "name": "Pooja", "skills": ["Python", "ML", "MongoDB"] },
+  { "name": "Rohit", "skills": ["Java", "SQL"] }
+]
+
